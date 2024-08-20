@@ -1,7 +1,7 @@
 \c my_bookshop;
 
 \echo '\n Here are all the books that we have in stock:\n'
--- SELECT * FROM books;
+SELECT * FROM books;
 
 \echo '\n Here are all the non-fiction books:\n'
 -- SELECT book_title FROM books WHERE is_fiction;

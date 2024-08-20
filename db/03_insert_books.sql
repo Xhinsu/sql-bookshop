@@ -1,6 +1,6 @@
 \c my_bookshop;
 INSERT INTO books (
-        book_Id,
+        author_id,
         book_title,
         price_in_pence,
         quantity_in_stock,
@@ -8,37 +8,28 @@ INSERT INTO books (
         is_fiction
     )
 VALUES (
-        1,
+        2,
         'The Hitchhiker''s Guide to the Galaxy',
         899,
         560,
         '1997-10-12',
         true
     ),
-    (
-        2,
+    (    2,
         'The Little Prince',
         699,
         1020,
         '1943-04-06',
         true
     ),
-    (
-        3,
-        'The Shop Before Life',
+    (3, 'The Shop Before Life',
         999,
         7,
         '2019-10-28',
         true
     ),
-    (4, 'Emma', 522, 390, '1815-12-23', true),
-    (
-        5,
-        'Nineteen Eighty-Four: A Novel',
-        799,
-        420,
-        '1949-06-08',
-        true
+    (4,'Emma', 522, 390, '1815-12-23', true),
+    (5,'Nineteen Eighty-Four: A Novel', 799,420,'1949-06-08',true
     ),
     (
         6,
@@ -48,7 +39,7 @@ VALUES (
         '1985-08-01',
         true
     ),
-    (7, 'The War of the Worlds', 250, 17, '1897-04-01', true),
+    ( 7,'The War of the Worlds', 250, 17, '1897-04-01', true),
     (
         8,
         'Captain Corelli''s Mandolin',
@@ -65,4 +56,4 @@ VALUES (
         '1988-04-01',
         false
     ),
-    (10, 'Pride and Prejudice', 699, 4, '1813-01-28', true);
+    (10,'Pride and Prejudice', 699, 4, '1813-01-28', true);
