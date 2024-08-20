@@ -18,7 +18,6 @@ SELECT * FROM books;
 -- -- SELECT * FROM books ORDER BY book_title ASC;
 
 
-
 -- \echo '\n Here is the most expensive book:\n'
 -- SELECT * FROM books ORDER BY price_in_pence DESC LIMIT 1
 -- -- SELECT max(price_in_pence) FROM books;
