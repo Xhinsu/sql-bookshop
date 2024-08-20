@@ -5,7 +5,7 @@ INSERT INTO authors (
         author_name,
         fun_fact
     )
-
+S
 VALUES    
 (1,'Dan Brown', 'Favourite colour is not brown.'),
 (2,'Antoine de Saint-Exupéry', 'He was a successful commercial pilot before World War II, working airmail routes in Europe, Africa, and South America.'),
